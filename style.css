@@ -1,0 +1,519 @@
+body *{
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    background: #abb8c3;
+    max-width: 700px;
+
+   
+    padding: 0 0 0 80px;
+  
+
+
+}
+
+
+
+/*abertura*/
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 71px;
+    size: 7px;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    color:#D34471;
+    text-align: center;
+}
+
+/*
+#noretiro{
+    font-weight: 400;
+    font-size: 35px;
+    color:#571F5E;
+    text-align: center;
+}
+*/
+/*sub titulo mias img asana*/
+#imagem {
+    text-align: center;
+    }
+#imagem p{ 
+    font-weight: bold;
+    font-size: 20px;
+    color:#585f6c;
+    /*rgba(0, 0, 0, 0.4);*/
+
+   text-align: center;
+    /* justify-content: center;*/
+   line-height: 26px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;}
+
+#imagem img{
+    width: 700px;
+  
+}
+/*texto de divisao de conteudo*/
+h4{ 
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20%;
+    color: #545454;
+    font-size: 20px;
+    margin-left: 5px;
+    font-style: initial;
+    font-weight: 300;
+}
+
+/*foto asana
+#imagem{
+width: 500px;    
+text-align: center;
+  /*padding: 10px 0 10px 20px;
+  position: relative;
+  left: 0;}
+*/
+
+#sub p{
+
+    font-weight: bold;
+    font-size: 24px;
+    color:#585f6c;
+    text-align: center;
+    padding: 15px 0 ;
+}
+
+
+
+/*atividades*/
+#lazer{
+    display: table;
+    width: 100%;
+}
+#lazer ul{
+   /* list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  transition: all 0.2s;
+ width: 100px;*/
+ list-style: none;
+ height: 340px;
+ width: 100%;
+ padding: 5px;
+ display: table-cell;
+ vertical-align: bottom;
+ 
+
+}
+#lazer ul li{
+    
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+}
+
+#lazer ul li p{
+    /*display: flex;
+    margin: 50px;*/
+   
+    color:#545454;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+   /* justify-content: center;
+    align-items: center;
+    width: 700px;*/
+ /*   margin-right: 50%;*/
+
+}
+#karma{
+    
+    text-align: left;
+    font-size: 12px;
+    color:#545454;
+}
+
+ul li p:hover{
+background-color: rgba(225, 225, 225, 0.5);
+border: 1px solid rgba(225, 225, 225, 0.01);/*
+width: 300px;*/
+border-radius: 8px;
+color: #545454;
+}
+
+ion-icon{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    transform: scale(1,5);
+    transform: translateY(25%);
+    margin: right 500px;
+    color: #D34471;;
+ 
+    height: 35px;
+    width: 35px;
+ 
+ 
+  
+    
+
+   
+}
+
+
+/*Localização*/
+#container1b{/*
+    background-color:  #585f6c;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: none;*/
+    background-color:  #585f6c;   
+}
+
+#container1b  h4{
+    text-align: right;
+    width: 20%;
+    color: white;
+    margin-left: 5px;
+}
+/*cabanas da bocaina ,localização*/
+
+
+
+#containerl{
+    height: 200px;
+  
+       
+}
+
+   
+#containerl p{
+    font-size: 20px;
+    color: #545454;
+    text-align: auto;
+    max-width: 945px;
+    min-width: 320px;  
+   
+}
+/*
+#botão{/*
+    height: 45px;
+    width: 200px;
+    background-color:  #D34471;
+    border: 1px solid #a40c41;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -50%;
+    max-width: 945px;
+    min-width: 320px;  
+    display: flex;
+   height: 300px;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+   justify-content: center;
+    border: 1px solid red;}*/
+    
+   
+#botão p{/*
+    padding: 0 0 24px 0;*/
+    background-color:  #571f5e;
+    border: 1px solid #9d65eb;
+   
+    opacity:.85; 
+    text-align: center;
+    height: 45px;
+    width: 300px;
+    border-radius: 8px;
+    transition: all 0.2s;
+    margin: auto;
+    padding: 20px 0 0 0;
+
+   /* backdrop-filter: blur(8px);
+    --webkit-backdrop-filter:blur(4px);*/
+
+}
+
+  
+    
+
+#botão a{
+
+font-weight: n;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 22px;
+   color:aliceblue;
+   text-decoration: none;
+   transition: all 0.2s;
+  
+
+}
+#botão :hover{
+   
+    text-align: center;
+    height: 45px;
+    width: 300px;
+  
+    transition: all 0.2s;
+    margin: auto;
+   
+    font-weight: n;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+  
+    text-decoration: none;
+    transition: all 0.2s;
+    background-color: #D34471;
+    border-radius: 8px;
+
+  
+    }/*
+#botão a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+
+}
+/*
+#container3 {
+    display: flex;
+    font-style: none;
+    height:400px ;
+    background-color: rgba(225, 225, 225, 0.5);
+    justify-content: center;
+    
+}
+
+
+#container3 td tr{
+    display: block;
+    align-items: baseline;
+    
+  
+
+
+}
+#container3 ul li{
+    display: block;
+  
+}
+
+#container3 ul li h5{
+    color:#585f6c;
+    
+}
+   */
+
+   #space{
+    padding: 25px 0;
+   }
+   /*container 3 : programação*/ 
+#container3{
+ 
+    background-color: rgba(225, 225, 225, 0.5);   
+    height: 500px;/*
+    max-width: 945px;
+    min-width: 320px;*/
+    
+}
+
+/* tabela de programação*/
+#containertab table thead tr{
+    text-align: center;
+    color: #545454;
+   
+
+}
+#containertab tbody tr td{
+    padding: 3px 5px;
+    border-spacing: 4px;
+}
+#containertab table{
+    max-width: 945px;
+    min-width: 320px;
+    border:none;
+    color:  #585f6c;
+    text-align: left;
+          
+}
+#containertab  td:hover{
+    background-color: #abb8c3;
+    border-radius: 8px;
+    border-color: #585f6c;
+}
+#containertab table td{
+    border: none;
+   
+}
+/*valores e forma de pagamento*/
+#containerbut{
+    padding-top: 14px;
+    background-color: #abb8c3;
+    max-width: 945px;
+    min-width: 320px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.valor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    color: #545454;
+    font-size: 20px;
+    margin-left: 5px;
+    font-style: initial;
+    font-weight: 300;
+
+}
+
+ul li{
+    color:   #571f5e;
+    font-size: 16px;
+    margin-left: 5px;
+    font-style: initial;
+    font-weight: 200;
+    padding: 5px 0;
+
+}
+
+/*
+#negrito{
+    font-size: 20px;
+    font-weight: 500;
+    color:  #545454;
+    
+}*/
+
+#linha{ 
+    color:   #571f5e;
+    font-size: 16px;
+    margin-left: 5px;
+    font-style: initial;
+    font-weight: 200;
+ 
+
+   
+}
+/*
+#containerbut section{
+    width: 20%;
+    text-align: center;
+}
+#containerbut button{
+    height: 45px;
+    width: 200px;
+    background-color:  #D34471;
+    border: 1px solid #a40c41;
+    border-radius: 15px;
+    
+    transition: all 0.2s;
+    backdrop-filter: blur(4px);
+    --webkit-backdrop-filter:blur(4px);
+}
+
+#containerbut button:hover{
+    height: 45px;
+    width: 200px;
+    background-color:  #571f5e;
+    border: 1px solid #9d65eb;
+    border-radius: 15px;
+    
+    
+   
+
+    }
+    #containerbut a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }*/
+/*
+#containergaleria{
+    background-color: rgba(225, 225, 225, 0.5);  
+    display: flex;
+    max-width: 700px;
+   
+   
+}*/
+
+#ft1{
+   
+    text-align: left;
+
+    /*margin-right: 10px;
+    margin-top: 10px;*/
+}
+#ft2{ text-align: left;}
+
+@media screen and (max-width:758px) {
+
+body*{ 
+    display: block;
+    padding: 0;
+    text-align: center;
+   
+    }
+ion-icon{
+    width: 15px;
+    height: 15px;
+}
+
+#containertab {
+    overflow-x: auto;}
+
+
+}
+
+/*
+@media screen and ( max-width:450px){
+
+#logo{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container_box{
+   margin: 2em 2em;
+}
+.secundario{
+    margin: 0;
+    text-align: center;
+}
+.dispositivos__lista{
+    display: block;
+
+}
+
+#container3 table{
+    display: block;
+    font-size: 8px;
+}  
+#container3 tbody tr td{
+    justify-content: center;
+    border-left-width: 5px;
+    letter-spacing: 1px 5px;
+    max-width: 50vw;
+    
+}
+}
